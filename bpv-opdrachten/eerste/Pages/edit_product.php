@@ -1,6 +1,5 @@
 <?php
-// functie: edit product
-// auteur: Dylan van Schouwen
+
 
 include_once "../Include pages/functions.php";
 

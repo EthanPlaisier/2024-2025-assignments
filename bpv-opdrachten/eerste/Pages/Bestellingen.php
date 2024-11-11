@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Bestellingen.php 
-    Auteur: Ethan
--->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

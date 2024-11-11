@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Complimenten.php 
-    Author: Ethan
--->
+
 
 <html lang="en">
 <head>

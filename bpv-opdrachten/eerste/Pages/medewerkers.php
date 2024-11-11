@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Medewerkers.php 
-    Author: Ethan
--->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

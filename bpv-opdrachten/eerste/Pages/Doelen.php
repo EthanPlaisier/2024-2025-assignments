@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-<!-- Doelen.php 
-    Author: Emir
--->
+
 <html lang="nl">
 <head>
     <meta charset="UTF-8">

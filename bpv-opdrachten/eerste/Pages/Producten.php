@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Producten.php crud 
-    Author: Dylan
--->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

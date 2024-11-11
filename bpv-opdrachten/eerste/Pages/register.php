@@ -1,6 +1,4 @@
-<!-- register.php 
-    Author: Ethan
--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

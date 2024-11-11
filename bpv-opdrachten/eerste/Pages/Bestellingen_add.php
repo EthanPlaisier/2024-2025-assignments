@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Insert_bestelling.php 
-    Author: Ethan
--->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

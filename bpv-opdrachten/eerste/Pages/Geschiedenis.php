@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Geschiedenis.php 
-    Author: Emir
--->
+
 <html lang="nl">
 <head>
     <meta charset="UTF-8">

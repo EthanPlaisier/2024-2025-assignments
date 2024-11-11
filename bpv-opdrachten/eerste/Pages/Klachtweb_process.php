@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-<!-- klachtweb_process.php 
-    Author: Dylan
--->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">

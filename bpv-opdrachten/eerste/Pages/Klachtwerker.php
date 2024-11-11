@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Klachtwerker.php 
-    Author: Ethan
--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
