@@ -1,0 +1,499 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Navbar styles */
+.nav {
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px; /* Ruimte tussen de buttons */
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px 20px; /* wat ruimte erom heen*/
+    text-decoration: none;
+    color: #fff;
+    background-color: #304D6D;
+    border-radius: 5px; /* smoother corners */
+    transition: background-color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #243a51; /* kleur verandert op hover */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2F2F2F;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px; /* smoother corners */
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #243a51; /* kleur verandert op hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #304D6d;
+    border: none;
+    border-radius: 5px; /* smoother corners */
+    transition: background-color 0.3s;
+}
+
+.dropbtn:hover {
+    background-color: #243a51; /* kleur verandert op hover */
+}
+/* Footer styles */
+footer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #171717;
+    bottom: 0;
+    width: 100%; /* zorgt ervoor dat het footer het hele wijdte neemt */
+    color: white;
+}
+
+.footer_logo {
+    height: 5%;
+    width: auto;
+}
+
+footer li {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 7%; /* ruimte tussen de bottom en list items */
+}
+
+#Footer_Product_title,
+#Footer_social_title {
+    font-weight: bold;
+    background-color: #333333;
+    padding: 5px;
+    font-size: 25px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.social-icons img {
+    margin-right: 10px;
+    width: 30px; /* wijdte in pixels */
+    height: 30px; /* hoogte in pixels */
+}
+
+.social-icons li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px; /* grootte van de font */
+}
+
+/* Medewerkers CSS */
+.medewerkers {
+    background-color: #BDC4A7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.medewerker {
+    width: 75%; /* Ruimte van de medewerkers */
+}
+
+.medewerker img {
+    width: 100%; /* wijdte van de images zelf */
+}
+
+.medewerker p {
+    text-align: center;
+    font-weight: bolder;
+    color:#171717;
+}
+
+/* Product CSS */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px; /* ruimte tussen productuen */
+    background-color: #BDC4A7;
+    box-shadow: #aeadad 2px 2px 4px;
+
+}
+
+.product-image {
+    width: 100%; /* max ruimte opnemen in het product */
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-name {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+#Product-form label{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-brand,
+.product-price {
+    margin: 5px 0;
+    color: #555;
+}
+
+.product-description {
+    margin-bottom: 10px; /* text wat van het bodem af */
+    color: #777;
+}
+.add_product_btn{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+.edit-product-btn,
+.delete-product-btn,
+.add-to-cart-btn, 
+.add_product_btn {
+    text-decoration: none;
+    box-shadow: #171717 2px 2px 4px;
+    padding: 8px 16px; /* Adjust padding for consistency */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px; /* Adjust margin for spacing */
+}
+
+.edit-product-btn:hover,
+.delete-product-btn:hover,
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
+
+.edit-process-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F3F9D2;
+}
+
+.edit-process-content {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.edit-process-header {
+    text-align: center;
+    background-color: #79A9D1;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.edit-process-body {
+    padding: 20px;
+}
+
+.edit-process-footer {
+    text-align: center;
+    background-color: #BDC4A7;
+    color: #2F2F2F;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Complaint Form CSS */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* form neemt genoeg ruimte */
+    padding: 0 20px;
+}
+
+.form {
+    width: 400px;
+    padding: 20px;
+    background-color: #BDC4A7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form select,
+.form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px; /* ruimte voor de text gebied */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    background-color: #304D6D;
+    color: #fff;
+    border: none;
+    padding: 10px; /* ruimte voor de knop */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #243a51;
+}
+/* Complaint Form Process CSS */
+.klacht-header {
+    text-align: center;
+    background-color: #79A9D1;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size:12px; /* grotere font */
+}
+
+.klacht-content {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F3F9D2;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Text in het midden zetten */
+}
+
+.klacht-content h2 {
+    color: #304D6D;
+    margin-bottom: 15px;
+    font-size: 20px; /* grotere font */
+}
+
+.klacht-content p {
+    margin-bottom: 10px;
+    font-size: 16px; /* grotere font */
+    color: #2F2F2F;
+}
+
+.klacht-footer {
+    text-align: center;
+    background-color: #BDC4A7;
+    color: #2F2F2F;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 18px; /* grotere font */
+}
+
+/* Index CSS */
+body {
+    background-color: #F3F9D2;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto; /* In het midden zetten */
+}
+
+.search-container {
+    margin-top: 50px; /* Ruimte tussen de top */
+    margin-bottom: 135px; /* Ruimte onder */
+}
+
+.search-bar {
+    background-color: #c4c6bd;
+    color: #171717;
+    border: none;
+    box-shadow: #171717 0px 0px 5px;
+    width: 60%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.box {
+    background-color: #BDC4A7;
+    width: 350px;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boxes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin-bottom:50px;
+    justify-items: center;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px; 
+    padding:30px;
+}
+.search-button{
+    background-color: #243a51;
+    padding:5px;
+    color:white;
+}
+/* Complaint Form CSS */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    background: radial-gradient(circle, #bbcd80, #adbf78, #F3F9D2);
+    animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.form {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form:hover {
+    transform: rotate(0deg);
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form select,
+.form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid #304D6D;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #304D6D;
+    font-weight: bold;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form input[type="text"]:focus,
+.form input[type="tel"]:focus,
+.form select:focus,
+.form textarea:focus {
+    border-color: #79A9D1;
+    outline: none;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    background-color: #304D6D;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form input[type="submit"]:hover {
+    background-color: #243a51;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #F3F9D2;
+}
+td {
+    border: 1px solid black;
+    width: 100px;
+}
