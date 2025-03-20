@@ -1,0 +1,15 @@
+{
+    "name": "ethan/login",
+    "autoload": {
+        "psr-4": {
+            "Login\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ethan",
+            "email": "9018008@student.zadkine.nl"
+        }
+    ],
+    "require": {}
+}
