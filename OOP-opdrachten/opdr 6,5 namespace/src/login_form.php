@@ -1,6 +1,7 @@
 <?php
 require_once "../vendor/autoload.php";
 use Login\classes\User;
+use Login\classes\Database;
 
 //require_once('classes/user.php');
 //require_once('config/database.php'); // Zorg voor een correcte databaseverbinding
@@ -8,6 +9,8 @@ use Login\classes\User;
 session_start();
 
 if(isset($_POST['login-btn'])){
+    $database = new Database();
+    $db = $database->getConnection();
     $user = new User($db);
     $errors = [];
     

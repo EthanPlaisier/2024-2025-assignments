@@ -20,6 +20,7 @@
 
 	require_once "../vendor/autoload.php";
 	use Login\classes\User;
+	use Login\classes\Database;
 
 	//include 'classes/user.php'; 
 	//include 'config/database.php'; 
