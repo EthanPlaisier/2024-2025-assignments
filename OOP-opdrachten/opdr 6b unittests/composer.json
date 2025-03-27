@@ -1,0 +1,17 @@
+{
+    "name": "ethan/login",
+    "autoload": {
+        "psr-4": {
+            "Login\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ethan",
+            "email": "9018008@student.zadkine.nl"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}

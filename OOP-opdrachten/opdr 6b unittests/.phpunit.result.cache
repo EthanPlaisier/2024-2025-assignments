@@ -1,0 +1,1 @@
+{"version":1,"defects":{"UserTest::testValidateUser":7},"times":{"UserTest::testSetPassword":0.151,"UserTest::testValidateUser":0.085,"UserTest::testRegisterUserFailsWhenUsernameExists":0.072,"UserTest::testRegisterUserSucceeds":0.071,"UserTest::testLoginUserFailsForInvalidCredentials":0}}
