@@ -1,0 +1,15 @@
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\bin\Debug\net8.0\RekenschineOOP.exe
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\bin\Debug\net8.0\RekenschineOOP.deps.json
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\bin\Debug\net8.0\RekenschineOOP.runtimeconfig.json
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\bin\Debug\net8.0\RekenschineOOP.dll
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\bin\Debug\net8.0\RekenschineOOP.pdb
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.AssemblyInfoInputs.cache
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.AssemblyInfo.cs
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.sourcelink.json
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.dll
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\refint\RekenschineOOP.dll
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.pdb
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\RekenschineOOP.genruntimeconfig.cache
+C:\xampp\htdocs\assignments-2024-2025\RekenschineOOP\obj\Debug\net8.0\ref\RekenschineOOP.dll
